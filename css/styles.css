@@ -1,0 +1,113 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #444;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.cover {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+}
+
+.cover h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+}
+
+.cover p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+}
+
+.cover button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cover button:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+}
+
+#features .feature img {
+    width: 100%;
+    height: auto;
+}
+
+#about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
